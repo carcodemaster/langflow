@@ -53,7 +53,6 @@ _tasks: list[asyncio.Task] = []
 MAX_PORT = 65535
 
 
-
 class RequestCancelledMiddleware(BaseHTTPMiddleware):
     def __init__(self, app) -> None:
         super().__init__(app)
