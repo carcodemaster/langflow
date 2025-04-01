@@ -1,4 +1,4 @@
-services:
+leaservices:
   langflow:
     image: langflowai/langflow:latest # or another version tag on https://hub.docker.com/r/langflowai/langflow
     pull_policy: always               # set to 'always' when using 'latest' image
